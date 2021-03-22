@@ -106,7 +106,7 @@ body {
   color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
-  padding: 2em;
+  padding: 1em;
   font-size: 1.25em;
   height: 100%;
 }
@@ -117,13 +117,14 @@ body {
   justify-content: space-between;
   flex-flow: row wrap;
   align-items: center;
-  max-width: 1200px;
+  width: 100%;
 }
 
 header, footer, .description {
 display: flex;
 align-items: flex-start;
 width: 100%;
+max-width: 100%;
 }
 
 h1,span {
@@ -148,20 +149,24 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
   color: #fff;
   line-height: 1.5em;
   font-size: 1.25em;
   height: auto;
-  width: 30%;
+  width: 100%;
+  margin:0;
 }
 
 .div-2 p{
 
-  border-left: 0.0625em #fff solid;
-  border-right: 0.0625em #fff solid;
-  padding: 0 1em;
+  border-top: 0.0625em #fff solid;
+  border-bottom: 0.0625em #fff solid;
+  padding: 1em 0;
+  margin: 0;
 }
 footer {
+  width: 100%;
   border-top: 0.0625em #fff solid;
   margin-top: 0.0625em;
 }
