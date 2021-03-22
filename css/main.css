@@ -117,6 +117,30 @@ body {
   justify-content: space-between;
   flex-flow: row wrap;
   align-items: center;
+  max-width: 1200px;
+}
+
+header, footer, .description {
+display: flex;
+align-items: flex-start;
+width: 100%;
+}
+
+h1,span {
+  font-family: "Lora",serif;
+}
+
+h1 {
+  font-size: 3em;
+
+}
+
+.description p {
+  font-size: 1.5em;
+  border-bottom: 0.0625em #fff solid;
+  margin: 0;
+  padding-bottom: 0.75em;
+
 }
 
 .div-1, .div-2, .div-3 {
@@ -131,8 +155,23 @@ body {
   width: 30%;
 }
 
+.div-2 p{
 
+  border-left: 0.0625em #fff solid;
+  border-right: 0.0625em #fff solid;
+  padding: 0 1em;
+}
+footer {
+  border-top: 0.0625em #fff solid;
+  margin-top: 0.0625em;
+}
 
+footer img{
+  display: flex;
+  align-items: center;
+  padding: 1em 0.25em;
+
+}
 
 
 
@@ -215,12 +254,9 @@ body {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-@media all and (min-width:1200px){
+@media all and (min-width:768px){
 
-  .div-2 {
-    border-left: 0.0625em #fff solid;
-    border-right: 0.0625em #fff solid;
-    padding: 0 1em;
+
 
   }
 }
