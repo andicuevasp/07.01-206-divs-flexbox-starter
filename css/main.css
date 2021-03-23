@@ -260,9 +260,52 @@ footer img{
    Modify as content requires.
    ========================================================================== */
 @media all and (min-width:768px){
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: center;
+  }
 
+  header, footer, .description {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  }
+  .div-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-bottom: 0.0625em #fff solid;
+    line-height: 1.5em;
+    font-size: 1.25em;
+    height: auto;
+    width: 100%;
+    margin:0;
+  }
 
+  .div-2, .div-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    line-height: 1.5em;
+    font-size: 1.25em;
+    height: auto;
+    width: 45%;
+    padding: 0 0.25em;
+    margin-left: 0;
+  }
 
+  .div-2 p{
+
+    border-right: 0.0625em #fff solid;
+
+  }
+  footer {
+    border-top: 0.0625em #fff solid;
+    margin-top: 0.0625em;
   }
 }
 
