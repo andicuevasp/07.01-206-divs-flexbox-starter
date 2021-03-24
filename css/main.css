@@ -118,6 +118,8 @@ body {
   flex-flow: row wrap;
   align-items: center;
   width: 100%;
+  min-width: 430px;
+  padding: 0 1em;
 }
 
 header, footer, .description {
@@ -158,11 +160,10 @@ h1 {
   margin:0;
 }
 
-.div-2 p{
+.div-2 {
 
   border-top: 0.0625em #fff solid;
   border-bottom: 0.0625em #fff solid;
-  padding: 1em 0;
   margin: 0;
 }
 footer {
@@ -265,6 +266,7 @@ footer img{
     justify-content: space-between;
     flex-flow: row wrap;
     align-items: center;
+    padding: 0 1em;
   }
 
   header, footer, .description {
@@ -298,11 +300,12 @@ footer img{
     margin-left: 0;
   }
 
-  .div-2 p{
-
+  .div-2 {
+    border-top: none;
+    border-bottom: none;
     border-right: 0.0625em #fff solid;
-
   }
+
   footer {
     border-top: 0.0625em #fff solid;
     margin-top: 0.0625em;
@@ -330,7 +333,6 @@ footer img{
     border-bottom: 0.0625em #fff solid;
     margin: 0;
     padding-bottom: 0.75em;
-
   }
 
   .div-1, .div-2, .div-3 {
@@ -343,14 +345,17 @@ footer img{
     font-size: 1.25em;
     height: auto;
     width: 30%;
+    border-bottom: none;
+    margin:1.25em 0;
   }
 
-  .div-2 p{
 
+  .div-2 {
     border-left: 0.0625em #fff solid;
     border-right: 0.0625em #fff solid;
     padding: 0 1em;
   }
+
   footer {
     border-top: 0.0625em #fff solid;
     margin-top: 0.0625em;
